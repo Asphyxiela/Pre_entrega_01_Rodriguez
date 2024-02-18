@@ -21,7 +21,7 @@ function promedioNotas() {
     let cantidadAlumnos = Number(prompt("¿Cuantos alumnos deseas revisar?"))
 
     for (let i = 0; i < cantidadAlumnos; i++) {
-        let nombre = prompt("Ingrese el nombre del almumno " + (i + 1) + ":")
+        let nombre = prompt("Ingrese el nombre del alumno " + (i + 1) + ":")
         let cantidadNotas = Number(prompt("Cuantas notas deseas ingresar para " + nombre + "?"))
         let suma = 0
 
