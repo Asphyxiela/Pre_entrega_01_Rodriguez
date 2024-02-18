@@ -33,9 +33,9 @@ function promedioNotas() {
     let promedio = suma / cantidadNotas
 
     if (promedio >= 10) {
-        alert("El promedio de las notas " + nombre + " en " + materia + " es " + promedio + ". Felicidades, ha aprobado.")
+        alert("El promedio de las notas de " + nombre + " en " + materia + " es " + promedio + ". Felicidades, ha aprobado.")
     } else {
-        alert("El promedio de las notas " + nombre + " en " + materia + " es " + promedio + ". Lo siento, no ha aprobado.")
+        alert("El promedio de las notas de " + nombre + " en " + materia + " es " + promedio + ". Lo siento, no ha aprobado.")
     }
   } 
 }
